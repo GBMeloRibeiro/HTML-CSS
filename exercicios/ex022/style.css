@@ -1,0 +1,49 @@
+body{
+    background-color: gray;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: white;
+    padding: 10px;
+}
+nav{
+    background-color: rgb(141, 141, 141);
+    padding: 3px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.397);
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;    
+}
+nav > a:hover{
+    text-decoration: underline;
+    color: black;
+}
+main{ 
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px 0px;
+    box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.219);
+}
+article{
+    background-color: lightgray;
+    padding: 5px;
+}
+article > aside{
+    background-color: rgb(141, 141, 141);
+    text-align: center;
+    font-size: 13px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 4px;
+}
+footer>p{
+    margin: 0px;
+}
