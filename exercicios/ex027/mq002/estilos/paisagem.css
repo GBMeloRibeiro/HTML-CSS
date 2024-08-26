@@ -1,7 +1,8 @@
 @charset "UTF-8";
-/* Aparelho em Pe (portrait)*/
+/* Aparelho deitado (landscape)*/
 
 body{
-  background: url(../imagens/cev-portrait.jpg);
-  background-position: center bottom;
+  background: url(../imagens/cev-landscape.jpg);
+  background-position: left bottom;
 }
+
