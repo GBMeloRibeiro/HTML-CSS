@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"  href="estilos/style.css">
+    <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <h1>Meu Site</h1>
+      <span id="burguer" class="material-symbols-outlined" onclick"clickMenu()">menu</span>
+      <menu id="itens">
+        <ul>
+          <li><a href="#">Opção 1</a></li>
+          <li><a href="#">Opção 2</a></li>
+          <li><a href="#">Opção 3</a></li>
+          <li><a href="#">Opção 4</a></li>
+          <li><a href="#">Opção 5</a></li>
+        </ul>
+      </menu>
+    </header>
+    <main>
+      <article>
+        <h2>Testando Media Queries</h2>    
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum, arcu non volutpat viverra, justo lectus consequat nunc, in faucibus nisi ex nec elit. Donec quis iaculis risus. Praesent sit amet luctus eros, vitae rhoncus lectus. Fusce condimentum ipsum et magna elementum, eu sollicitudin purus aliquet. Duis vehicula, tortor in cursus volutpat, augue eros accumsan risus, id semper est lectus ut felis. Cras viverra ullamcorper posuere. Vivamus ex massa, feugiat eu diam nec, mollis mattis neque. Vestibulum ac dui in urna ultrices cursus sit amet eget orci. Ut eget leo quis massa suscipit ultrices a sit amet sem. Aliquam a est bibendum, cursus nulla eu, consectetur elit. Cras viverra, arcu vitae ultricies varius, turpis mi pellentesque mi, quis faucibus dui tellus in velit. Aliquam et cursus massa. Donec sed fringilla ante.
+
+Etiam non purus vel massa euismod auctor. Duis blandit eu libero eget pulvinar. Pellentesque tempor odio eget ante dictum commodo. Suspendisse quis luctus dolor, at malesuada velit. Integer sed tempus purus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer quam felis, gravida at elit eu, tristique accumsan libero.
+
+Nunc massa nulla, rhoncus vitae tortor a, pellentesque porta nisi. Nunc sed metus erat. Mauris sodales felis id lacus consequat cursus. Quisque gravida sem arcu, sed suscipit augue malesuada vitae. Maecenas cursus ex elit, quis gravida mauris volutpat nec. Duis sodales congue sapien, at blandit massa aliquam sit amet. Phasellus id nibh ligula. Nunc sit amet consequat dui. Vestibulum ornare at ex at tempus. Suspendisse varius egestas tellus, in cursus lorem tempus et. Ut eros elit, sagittis eget nibh eget, facilisis imperdiet magna. Duis vel risus mauris. Mauris lacinia urna eu velit ultricies pellentesque.
+
+Sed leo est, fringilla eget mollis nec, ullamcorper elementum lacus. Duis ullamcorper, nulla vel consectetur gravida, lorem nibh dignissim risus, sit amet fermentum turpis risus ut tortor. Nunc hendrerit porttitor ante. Sed quis enim in ex blandit elementum. Mauris consequat, urna nec euismod lacinia, eros diam congue ex, et commodo metus magna quis diam. Morbi vel urna neque. Integer lorem orci, fringilla et ultrices finibus, fringilla id tortor. Phasellus scelerisque semper pulvinar.
+
+Aliquam luctus convallis tellus vitae commodo. Donec accumsan enim malesuada velit mattis blandit. Mauris in elit vel leo ultricies pellentesque id et urna. Nam tincidunt suscipit est sit amet vehicula. Nullam mauris purus, facilisis et mi eu, posuere semper mi. Aenean ante est, iaculis vel nunc non, commodo euismod justo. Aenean tincidunt consectetur dolor quis luctus. Vivamus in elit lacus. Proin vehicula, eros vitae accumsan cursus, purus lacus malesuada elit, quis varius augue justo sed lorem. Maecenas id neque nunc. Phasellus gravida metus suscipit fringilla molestie. Nullam venenatis enim ac tempor iaculis. Curabitur eget justo suscipit justo sollicitudin malesuada suscipit sed odio. Donec et nisi scelerisque nisl imperdiet suscipit et imperdiet turpis.</p>
+      </article>
+    </main>
+    <script>
+      function clickMenu(){
+        if (itens.style.display == 'block') {
+          itens.style.display ='none'
+        } else {
+          itens.style.display = 'block'
+        }
+      }
+    </script>
+  </body>
+</html>
